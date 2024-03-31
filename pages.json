@@ -1,0 +1,57 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},	
+	"pages": [
+		{
+		    "path" : "pages/index/index",
+		    "style" :                                                                                    
+		    {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#f7f7f7",
+				"navigationBarTextStyle": "black",
+				"disableScroll": true
+		    }
+		},
+		{
+			"path" : "pages/search/search",
+			"style" : 
+			{
+				"navigationBarTitleText" : "搜索结果",
+				"enablePullDownRefresh" : false,
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path" : "pages/search/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "资源详情",
+				"enablePullDownRefresh" : false,
+				"navigationBarTextStyle": "black"
+			}
+		}
+    ],
+	"globalStyle": {
+		// #ifdef H5
+		 "navigationStyle": "custom",
+		// #endif
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "爱看短剧",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"backgroundTextStyle":"light",
+		"pageOrientation":"portrait"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		// "current": 0, //当前激活的模式(list 的索引项)
+		// "list": [
+		// 	{
+		// 		   "name": "", //模式名称
+		// 		   "path": "pages/ad/index", //启动页面，必选
+		// 		   "query": "request_id=de33bed0-edd5-11ee-8efc-9ff5c2667c4f" //启动参数，在页面的onLoad函数里面得到
+		// 	}
+		// ]
+	}
+}
