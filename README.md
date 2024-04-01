@@ -36,6 +36,67 @@ H5上，模仿uniapp插件观看广告模式，扫码观看小程序广告可获
 
 使用中您有任何问题可以进群交流：331446855 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=alwjBo-4oy8uA3dN6m9xuevF9hxPn2Mg&jump_from=webapi"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="技术交流" title="技术交流"></a>
 
+## 免费接口
+
+1、云端同步
+
+~~~
+https://ai-img.ycubbs.cn/api/duanju/list
+~~~
+
+2、短剧搜索
+
+~~~
+https://ai-img.ycubbs.cn/api/duanju/search?name=赘婿
+~~~
+
+3、每日更新
+
+~~~
+https://ai-img.ycubbs.cn/api/duanju/daily
+~~~
+
+## uniapp端修改
+
+~~~
+修改 common/environment.js 
+
+BASE_API，自己搭建的域名
+
+VIDEO_AD_ID，激励视频广告ID配置好即可小程序内观看广告显示分享链接
+~~~
+
+## 后台修改
+
+1、按照宝塔配置好thinkphp6.0
+
+2、初始化扩展
+
+~~~
+composer install
+~~~
+
+3、配置数据库
+
+~~~
+修改根目录下的 .env
+
+DATABASE
+USERNAME
+PASSWORD
+
+~~~
+
+4、访问https://域名/admin显示后台登录
+
+5、如需关闭/开启观看广告模式
+
+~~~
+可修改config/define.php
+
+IS_AD
+~~~
+
 ## 功能展示
 
 ![爱看短剧](https://files.ycubbs.cn/image/duanju/1.png)
