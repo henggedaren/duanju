@@ -112,3 +112,24 @@ IS_AD
 ![爱看短剧后台](https://files.ycubbs.cn/image/duanju/5.png)
 ![爱看短剧后台](https://files.ycubbs.cn/image/duanju/6.png)
 ![爱看短剧后台](https://files.ycubbs.cn/image/duanju/7.png)
+
+## 打赏
+
+如果这个项目让你受益，你可以打赏我1块钱，让我知道开源有价值。谢谢！
+
+<div>
+👇👇微信👇👇
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+👇👇支付宝👇👇
+</div>
+<img src="https://files.ycubbs.cn/image/public/wx-dashang.png" alt="微信打赏" style="width:200px;height: 200px" width="200" height="200"/>
+
+<img src="https://files.ycubbs.cn/image/public/zfb-dashang.png" alt="微信打赏" style="width:200px;height: 200px" width="200" height="200"/>
+
+## 声明
+
+本程序为个人兴趣开发，开源仅供学习与交流使用。所有资源均来自互联网公开信息。
+
+程序没有任何破解行为，只是对于夸克已有的API进行封装，所有数据来自于夸克官方API，本人不对网盘内容负责、不对夸克官方API未来可能的改动导致的后果负责。
+
+任何单位或个人因下载使用此软件而产生的任何意外、疏忽、合约毁坏、诽谤、版权或知识产权侵犯及其造成的损失 (包括但不限于直接、间接、附带或衍生的损失等)，本人不承担任何法律责任。
