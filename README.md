@@ -117,9 +117,9 @@ IS_AD
 
 如果这个项目让你受益，你可以打赏我1块钱，让我知道开源有价值。谢谢！
 
-<img src="https://files.ycubbs.cn/image/public/wx-dashang.png" alt="微信打赏" style="width:200px;height: 200px" width="200" height="200"/>
+![微信打赏](https://files.ycubbs.cn/image/public/wx-dashang.png)
 
-<img src="https://files.ycubbs.cn/image/public/zfb-dashang.png" alt="微信打赏" style="width:200px;height: 200px" width="200" height="200"/>
+![支付宝打赏](https://files.ycubbs.cn/image/public/zfb-dashang.png)
 
 ## 声明
 
