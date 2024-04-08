@@ -2,9 +2,11 @@
 
 ## 介绍
 
-基于thinkphp6.0 + uniapp开发的短剧搜索平台, 已兼容APP、H5、微信小程序
+基于xxx + uniapp开发的短剧搜索平台, 已兼容APP、H5、微信小程序
 
-下载即可使用，内置搜索源。
+非原创，[原创地址](https://ext.dcloud.net.cn/plugin?id=17094)
+
+在此基础上做了简单修改，并提供了接口源，下载即可使用。
 
 ~~~
 小程序上，添加视频广告ID，可观看广告后获取链接。
@@ -20,7 +22,10 @@ H5上，模仿uniapp插件观看广告模式，扫码观看小程序广告可获
 
 后台包含一套可用的夸克自动转存、自动分享、自动抓取功能。
 
+[夸克自动转存开源地址](https://gitee.com/henggedaren/quark-save)
+
 设置好定时任务，基本可以做到全自动化管理。
+
 
 ## 线上地址
 
@@ -56,47 +61,6 @@ https://ai-img.ycubbs.cn/api/duanju/search?name=赘婿
 https://ai-img.ycubbs.cn/api/duanju/daily
 ~~~
 
-## uniapp端修改
-
-~~~
-修改 common/environment.js 
-
-BASE_API，自己搭建的域名
-
-VIDEO_AD_ID，激励视频广告ID配置好即可小程序内观看广告显示分享链接
-~~~
-
-## 后台修改
-
-1、按照宝塔配置好thinkphp6.0
-
-2、初始化扩展
-
-~~~
-composer install
-~~~
-
-3、配置数据库
-
-~~~
-修改根目录下的 .env
-
-DATABASE
-USERNAME
-PASSWORD
-
-~~~
-
-4、访问https://域名/admin显示后台登录
-
-5、如需关闭/开启观看广告模式
-
-~~~
-可修改config/define.php
-
-IS_AD
-~~~
-
 ## 功能展示
 
 ![爱看短剧](https://files.ycubbs.cn/image/duanju/1.png)
@@ -106,6 +70,8 @@ IS_AD
 ![爱看短剧](https://files.ycubbs.cn/image/duanju/3.png)
 
 ![爱看短剧](https://files.ycubbs.cn/image/duanju/4.png)
+
+![爱看短剧](https://files.ycubbs.cn/image/duanju/8.png)
 
 ### 后台演示（右键可查看原图）
 
@@ -123,7 +89,7 @@ IS_AD
 
 ## 声明
 
-本程序为个人兴趣开发，开源仅供学习与交流使用。所有资源均来自互联网公开信息。
+本程序为个人兴趣开发，开源仅供学习与交流使用。
 
 程序没有任何破解行为，只是对于夸克已有的API进行封装，所有数据来自于夸克官方API，本人不对网盘内容负责、不对夸克官方API未来可能的改动导致的后果负责。
 
