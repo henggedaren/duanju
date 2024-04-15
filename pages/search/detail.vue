@@ -28,7 +28,12 @@
 						<!-- #endif -->
 					</view>
 					<view v-if="detail.type == 1" @longtap="globalUtil.copy(detail.url,false)">
+						<!-- #ifdef H5 -->
+						<a :href= "detail.url" target="_blank" >{{detail.url}}</a>
+						<!-- #endif -->
+						<!-- #ifndef H5 -->
 						<text >{{detail.url}}</text>
+						<!-- #endif -->
 					</view>
 				</view>
 			</view>
@@ -62,7 +67,7 @@
 			</button>
 			<!-- #endif -->
 			<!-- #ifdef H5 -->
-			<button plain class="func-share" @click="globalUtil.copy('')">
+			<button plain class="func-share" @click="copyUrl()">
 				分享给好友
 			</button>
 			<!-- #endif -->
@@ -289,6 +294,9 @@
 					return false;
 				});
 			},
+			copyUrl(){
+				this.globalUtil.copy(window.location.href,false)
+			}
 		},
 		onUnload(){
 			this.clearTimer();
